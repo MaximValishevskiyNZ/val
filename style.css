@@ -1,0 +1,34 @@
+#imageContainer {
+    width: 80%;
+    height:  1300px;
+    position: relative;
+    margin: 100px auto
+}
+
+@media (min-width:  992px) {
+    #imageContainer {
+        width:  1000px;
+    }
+}
+
+#myImage {
+    width:  100%;
+    height: auto;
+}
+
+#textContainer {
+    position: absolute;
+    top: 0;
+    padding: 100px 200px;
+    font-size: 50px;
+    color: aqua;
+}
+
+body {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+            font-variation-settings:
+                    "slnt" 0;
+        }
